@@ -277,7 +277,6 @@ connect = 127.0.0.1:443
 accept = 990
 connect = 127.0.0.1:1194
 
-
 END
 
 # make a certificate
@@ -350,7 +349,7 @@ sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dr
 #wget https://${akbarvpn}/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
 # Ganti Banner
-wget -O /etc/issue.net "https://${akbarvpn}/issue.net"
+wget -O /etc/issue.net "https://${wisnuvpn}/issue.net"
 
 # blockir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
