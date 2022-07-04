@@ -50,7 +50,7 @@ if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
-mkdir /var/lib/crot;
+mkdir /var/lib/wisnucs;
 echo "IP=" >> /var/lib/wisnucs/ipvps.conf
 wget https://${wisnuvpn}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 #install xray
