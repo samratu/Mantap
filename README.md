@@ -1,9 +1,9 @@
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=S+O+L+E+M+A+N+T+O+Y+E+B" />
 </p>
-<p align='center'><a href="https://api.daily.dev/get?r=SOLEMANTOYEB"><img src="https://raw.githubusercontent.com/SOLEMANTOYEB/.github/main/kotori2.png?r=82s" width="150" alt="Hayuk"/></a></p>
+<p align='center'><a href="https://api.daily.dev/get?r=SOLEMANTOYEB"><img src="https://raw.githubusercontent.com/SOLEMANTOYEB/.github/main/kotori2.png?r=82s" width="150" alt="JANGAN INTIP INTIP KAKA YA HAHAHAYUUK"/></a></p>
 
-![fisabiliyusri's card name](https://cardivo.vercel.app/api?name=SOLEMAN%20TOYEB&description=Hi,%20everyone!%20and%20Nice%20to%20meet%20you%20%F0%9F%91%8B&image=https://raw.githubusercontent.com/SOLEMANTOYEB/.github/main/kurumiwangy3.jpg?v=4&backgroundColor=%23ecf0f1&twitter=/&github=SOLEMANTOYEB&pattern=leaf&colorPattern=%23eaeaea)
+![SOLEMANTOYEB's card name](https://cardivo.vercel.app/api?name=SOLEMAN%20TOYEB&description=Hi,%20everyone!%20and%20Nice%20to%20meet%20you%20%F0%9F%91%8B&image=https://raw.githubusercontent.com/SOLEMANTOYEB/.github/main/kurumiwangy3.jpg?v=4&backgroundColor=%23ecf0f1&twitter=/&github=SOLEMANTOYEB&pattern=leaf&colorPattern=%23eaeaea)
 
 
 <h2 align="center">
@@ -21,7 +21,7 @@ Mod By SL
 <p align="center"><img src="https://img.shields.io/badge/Service-SSH_OpenSSH-success.svg">  <img src="https://img.shields.io/badge/Service-SSH_Dropbear-success.svg">  <img src="https://img.shields.io/badge/Service-BadVPN-success.svg">  <img src="https://img.shields.io/badge/Service-OpenVPN-success.svg">  <img src="https://img.shields.io/badge/Service-Squid3-success.svg">  <img   src="https://img.shields.io/badge/Service-Webmin-success.svg">  <img src="https://img.shields.io/badge/Service-SlowDns-success.svg">  <p align="center"><img src="https://img.shields.io/badge/Service-XRAY-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_Websocket_TLS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_VLESS_VMESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_gRPC_VLESS_VMESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_TROJAN-success.svg">  <p align="center"><img src="https://img.shields.io/badge/Service-SSR-success.svg">  <img src="https://img.shields.io/badge/Service-Trojan_Go-success.svg">  <img src="https://img.shields.io/badge/Service-WireGuard-success.svg">  <img src= "https://img.shields.io/badge/Service-Shadowsocks-success.svg">  
 
 ### Link Grup FB: 
-https://www.facebook.com/groups/1880372362109422/?ref=share
+https://www.facebook.com/groups/SOLEMANTOYEB/?ref=share
 ### Info:
 * HARAP DI BACA & UTAMAKAN MEMBACA
 # INI SCRIPT KHUSUS UNTUK MEMBUAT SERVER VPN
@@ -44,7 +44,7 @@ su
 
 ### Link Video Tutorial Cara Install
 ```html
-https://www.facebook.com/SOLEMANTOTEB/posts/628374871570224/?app=fbl
+https://www.facebook.com/SOLEMANTOYEB/posts/TOYEB.COM/?app=fbl
 ```
 
 ## INFO TAMBAHAN , SILAHKAN DI BACA 
