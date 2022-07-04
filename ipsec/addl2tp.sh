@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/zerossl
+# SL
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -13,22 +13,30 @@ LIGHT='\033[0;37m'
 # ==========================================
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
+echo "Checking VPS"
+IZIN=$( curl ipinfo.io/ip | grep $MYIP )
+if [ $MYIP = $MYIP ]; then
+echo -e "${NC}${GREEN}Permission Accepted...${NC}"
+else
+echo -e "${NC}${RED}Permission Denied!${NC}";
+echo -e "${NC}${LIGHT}Fuck You!!"
+exit 0
+fi
 clear
 if [[ "$IP" = "" ]]; then
 PUBLIC_IP=$(wget -qO- ipinfo.io/ip);
 else
 PUBLIC_IP=$IP
 fi
-source /var/lib/wisnucs/ipvps.conf
+source /var/lib/crot/ipvps.conf
 if [[ "$IP2" = "" ]]; then
-#domain=$(cat /etc/v2ray/domain)
 domain=$(cat /etc/xray/domain)
 else
 domain=$IP2
 fi
 until [[ $VPN_USER =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		read -rp "Username : " -e VPN_USER
-		CLIENT_EXISTS=$(grep -w $VPN_USER /var/lib/wisnucs/data-user-l2tp | wc -l)
+		CLIENT_EXISTS=$(grep -w $VPN_USER /var/lib/crot/data-user-l2tp | wc -l)
 
 		if [[ ${CLIENT_EXISTS} == '1' ]]; then
 			echo ""
@@ -54,19 +62,19 @@ EOF
 
 # Update file attributes
 chmod 600 /etc/ppp/chap-secrets* /etc/ipsec.d/passwd*
-echo -e "### $VPN_USER $exp">>"/var/lib/wisnucs/data-user-l2tp"
+echo -e "### $VPN_USER $exp">>"/var/lib/crot/data-user-l2tp"
 cat <<EOF
 
-echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[46;1;46m        🔰 AKUN L2TP 🔰           \E[0m"   
-echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "IP/Host    : $PUBLIC_IP"
-echo -e "Domain     : $domain"
-echo -e "IPsec PSK  : gandring"
-echo -e "Username   : $VPN_USER"
-echo -e "Password   : $VPN_PASSWORD"
-echo -e "Created    : $hariini"
-echo -e "Expired    : $exp"
-echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[46;1;46m  🔰LUXURY EDITION BY ZEROSSL🔰   \E[0m"   
-echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+============================
+L2TP/IPSEC PSK VPN
+============================
+IP/Host    : $PUBLIC_IP
+Domain     : $domain
+IPsec PSK  : myvpn
+Username   : $VPN_USER
+Password   : $VPN_PASSWORD
+Created    : $hariini
+Expired    : $exp
+============================
+Script Mod By SL
+EOF
